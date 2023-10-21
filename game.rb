@@ -1,3 +1,4 @@
+require_relative './question'
 class Game
   attr_accessor :current_player
 
@@ -52,3 +53,5 @@ player1 = Player.new("Player1")
 player2 = Player.new("Player2")
 game = Game.new(player1, player2)
 game.start_game
+
+

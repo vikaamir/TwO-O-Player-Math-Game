@@ -1,3 +1,3 @@
 require './player'
 require './game'
-require './question'
+require_relative './question'
